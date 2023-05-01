@@ -10,8 +10,7 @@ public class User{
 	}
 	
 	public void save(){
-		Persister persister = new Persister(this);
-		persister.save();
+		System.out.println("Save user: " + name);
 	}
 	
 	public void report(){
